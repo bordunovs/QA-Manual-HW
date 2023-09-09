@@ -1,0 +1,20 @@
+/* Стилі для заголовка */
+#header {
+    background-color: #3065ed;
+    color: #f0d81b;
+    padding: 20px;
+}
+
+/* Стилі для фотографії */
+#photo {
+    max-width: 100%;
+}
+
+/* Стилі для посилань у футері */
+.footer-link {
+    color: #e6f02a;
+    text-decoration: none;
+    margin: 10px;
+}
+body {background-color: rgb(246, 250, 13);}
+
