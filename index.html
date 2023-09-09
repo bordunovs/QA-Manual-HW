@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя страничка</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
-        <a href="./index.html">Главная</a>
-        <a href="./pages/gallery.html">Галерея</a>
-        <a href="./pages/contact.html">Контакты</a>
+        <p><a class="footer-link" href="./index.html">Главная</a></p>
+        <p><a class="footer-link" href="./pages/gallery.html">Галерея</a></p>
+        <p><a class="footer-link" href="./pages/contact.html">Контакты</a></p>
 
       </nav>
-        <h1>Обо Мне</h1>
-        <p> Меня зовут Сергей Бордунов, мне 38 лет.</p>
     </header>
     <section>
-        <img src="./images/111.jpeg" width="700" height="300" alt="Моя фотографія">
-        <p>Я изучил язык програмированния Python.Также я изучил теорию тестирования, а также базовые методы
+        <h1>Обо Мне</h1>
+        <p class="description"> Меня зовут Сергей Бордунов, мне 38 лет.</p>
+        <img id="photo" src="./images/111.jpeg" width="700" height="300" alt="Моя фотографія">
+        <p class="description">Я изучил язык програмированния Python.Также я изучил теорию тестирования, а также базовые методы
             для работы с различными инструментами тестера. у меня нет 
             опыт, но я хотел бы иметь возможность продолжать развивать свой
             навыки в сфере QA.
@@ -33,11 +35,6 @@
         <br>
         <p></p>
     </section>
-    <!-- <footer>
-        <p><a href="pages/contact.html">Контакти</a></p>
-        <p>Mob: 0479329879 </p>
-        <a href="https://github.com/bordunovs" target="_blank">My GitHub</a>
-    </footer> -->
 
 </body>
 </html>

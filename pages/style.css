@@ -1,0 +1,20 @@
+/* Стилі для фону секції контактів */
+#contact-background {
+    background-color: rgb(233, 233, 37);
+}
+
+/* Стилі для тексту контактів */
+#contact-text {
+    color: rgb(244, 53, 216);
+}
+#header {
+    background-color: #3065ed;
+    color: #f0d81b;
+    padding: 20px;
+}
+.footer-link {
+    color: #f4f262;
+    text-decoration: none;
+    margin: 10px;
+}
+body {background-color: #f6f22d;}
